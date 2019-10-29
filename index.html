@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <link href='//fonts.googleapis.com/css?family=Lato|Playfair+Display:400,900 italic' rel='stylesheet' type='text/css'>
+    <link href="enrollment.css" rel="stylesheet" type="text/css" />
+    <meta property="fb:app_id" content="424227507614594"/>
+    <meta property="og:image" content="http://www.calvin.edu/chimes/wp-content/uploads/2013/11/enrollment-564x272.png"/>
+    <meta property="og:title" content="Visualized: The Decade in Calvin College Enrollment"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://www.calvin.edu/chimes/2013-14/enrollment/enrollment.html"/>
+
+<meta name="og:site_name" content="Calvin Chimes"/>
+<meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Visualized: The Decade in Calvin College Enrollment"/>
+    <meta name="twitter:image:src" content="http://www.calvin.edu/chimes/wp-content/uploads/2013/11/enrollment-564x272.png"/>
+    <meta name="twitter:description" content="The following is an interactive data visualization displaying data from the Calvin College Day 10 report"/>
+    <meta name="twitter:site" content="@CalvinChimes"/>
+    <meta name="twitter:creator" content="@JohnMuyskens"/>
+</head>
+<body>
+<div id="splash">
+    <img id="tutimg" src="tutorial.svg">
+</div>
+<div id="header">
+<div id="prelude">A Chimes Special Report</div>
+<div id="title">The Decade in Calvin Enrollment</div>
+<div id="credit">By John Muyskens. Data from <a target="_blank"
+                                                href="http://www.calvin.edu/admin/enrollment/day10/">Calvin Enrollment</a>.</div>
+<div id="options"><span class="option highlighted" id="religion">religion</span> &#8226 <span class="option" id="major">major</span> &#8226 <span class="option" id="gender">sex</span> &#8226 <span class="option" id="citizenship">citizenship</span> &#8226 <span class="option" id="minorities">Minorities</span>
+<div id="submenu">View: <span class="sub option" id="allmajor">all</span> &#8226 <span class="sub option" id="stem">s.t.e.m.</span> &#8226 <span class="sub option" id="socsci">social sciences</span> &#8226 <span class="sub option" id="humanities">humanities</span> &#8226 <span class="sub option" id="pre-prof">Pre-Professional</span></div></div>
+</div>
+s
+
+<div id="wrap">
+<div id="viz"></div>
+
+<script type="text/javascript" src="//d3js.org/d3.v3.min.js"></script>
+<script type="text/javascript" src="enrollment.js"></script>
+
+</div>
+
+<div id="showsplash" class="clickable">[?]</div>
+<div id="splashx" class="clickable">x</div>
+
+<div id="fbwrap">
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.calvin.edu%2Fchimes%2F2013-14%2Fenrollment%2Fenrollment.html&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;font&amp;colorscheme=light&amp;action=like&amp;height=80&amp;appId=424227507614594" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowtransparency="true"></iframe>
+
+    <img id="chimeslogo" src="logo.svg">
+</div>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28555871-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<img id="help" class="clickable" style="display:none" src="help.svg">
+</body>
+</html>
